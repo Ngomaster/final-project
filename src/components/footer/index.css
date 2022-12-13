@@ -1,0 +1,18 @@
+.footer-item {
+  background: #04222d;
+  display: flex;
+  padding: 23px 18px;
+}
+.footer-item img {
+  margin-right: 15px;
+  height: 57px;
+  width: 57px;
+}
+.row-footer {
+  display: flex;
+}
+.footer-item h5 {
+  font-size: 16px;
+  text-align: inherit;
+  color: #fff;
+}
