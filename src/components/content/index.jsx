@@ -1,12 +1,12 @@
 import React from "react";
-import BotSlide from "../slideshow/bot_slide";
-import botSlide from "../slideshow/bot_slide";
+import HeaderList from "../header/header_list";
 import MainSlide from "../slideshow/main_slide";
 import "./index.css";
 
 function Content(props) {
   return (
     <>
+      <HeaderList />
       <div className="container">
         <div className="module-title-2">
           <h2>SẢN PHẨM MỚI VỀ</h2>
@@ -240,7 +240,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -307,7 +307,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -374,7 +374,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -441,7 +441,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -508,7 +508,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -575,7 +575,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -642,7 +642,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
@@ -709,7 +709,7 @@ function Content(props) {
             </div>
           </div>
         </div>
-        <a href="">
+        <a href="" className="btn-ct">
           <span>
             <i class="fa-sharp fa-solid fa-arrow-right"></i>
           </span>
