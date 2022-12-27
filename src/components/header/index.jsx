@@ -1,9 +1,14 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./index.css";
 import NewCollection from "./nav_head/new_collecttions";
 import MainSlide from "../slideshow/main_slide";
 import { NavDropdown } from "react-bootstrap";
+import Kitchen from "./nav_head/kitchen";
+import Lounge from "./nav_head/lounge";
+import Bedroom from "./nav_head/bedroom";
+import Cafeshop from "./nav_head/shopcafe";
+import Office from "./nav_head/office";
+import Promotion from "./nav_head/promotion";
 
 function Header() {
   return (
@@ -11,7 +16,7 @@ function Header() {
       <div className="header-main">
         <div className="row-items">
           <div>
-            <a href="https://woodpro.vn">
+            <a href="/">
               <img src="https://noithattvp.vn/image/cache/catalog/1-san-pham-line-moi/logo-noi-that-moi-t10-mau-tron-01-450x140.jpg" />
             </a>
           </div>
@@ -70,126 +75,66 @@ function Header() {
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <div className="drop">
+                <NewCollection />
+              </div>
             </NavDropdown>
             <NavDropdown
               title="PHÒNG BẾP"
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <Kitchen />
             </NavDropdown>
             <NavDropdown
               title="PHÒNG KHÁCH"
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <Lounge />
             </NavDropdown>
             <NavDropdown
               title="PHÒNG NGỦ"
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <Bedroom />
             </NavDropdown>
             <NavDropdown
               title="SHOP CAFE VÀ BAR"
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <Cafeshop />
             </NavDropdown>
             <NavDropdown
               title="SÂN VƯỜN, NGOÀI TRỜI"
               id="nothing"
               renderMenuOnMount={true}
-            >
-              {/* Menu */}
-            </NavDropdown>
+            ></NavDropdown>
             <NavDropdown
               title="VĂN PHÒNG"
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <Office />
             </NavDropdown>
             <NavDropdown
               title="KHUYẾN MÃI"
               id="nothing"
               renderMenuOnMount={true}
             >
-              {/* Menu */}
+              <Promotion />
             </NavDropdown>
-            <NavDropdown title="TIN TỨC" id="nothing" renderMenuOnMount={true}>
-              {/* Menu */}
-            </NavDropdown>
+            <NavDropdown
+              title="TIN TỨC"
+              id="nothing"
+              renderMenuOnMount={true}
+            ></NavDropdown>
           </div>
         </div>
         <div>
           <MainSlide />
-        </div>
-        <div className="module-title">
-          <div className="container-sl-pd">
-            <h3>Danh mục sản phẩm</h3>
-
-            <div className="row-category">
-              <div className="category-box">
-                <a href="">
-                  <img
-                    src="https://noithattvp.vn/image/cache/catalog/2022-banner/ban-ghe-an-tvp-cr-400x400.png"
-                    alt=""
-                  />
-                </a>
-                <h3 className="h5">BÀN GHẾ ĂN</h3>
-              </div>
-              <div className="category-box">
-                <a href="">
-                  <img
-                    src="https://noithattvp.vn/image/cache/catalog/2022-banner/ban-tra-ban-sofa-cr-400x400.png"
-                    alt=""
-                  />
-                </a>
-                <h3 className="h5">BÀN GHẾ ĂN</h3>
-              </div>
-              <div className="category-box">
-                <a href="">
-                  <img
-                    src="https://noithattvp.vn/image/cache/catalog/2022-banner/sofa-tvp-cr-400x400.png"
-                    alt=""
-                  />
-                </a>
-                <h3 className="h5">BÀN GHẾ ĂN</h3>
-              </div>
-              <div className="category-box">
-                <a href="">
-                  <img
-                    src="https://noithattvp.vn/image/cache/catalog/2022-banner/thiet-ke-hinh-tron-05-cr-400x400.png"
-                    alt=""
-                  />
-                </a>
-                <h3 className="h5">BÀN GHẾ ĂN</h3>
-              </div>
-              <div className="category-box">
-                <a href="">
-                  <img
-                    src="https://noithattvp.vn/image/cache/catalog/2022-banner/ban-trang-diem-cr-400x400.png"
-                    alt=""
-                  />
-                </a>
-                <h3 className="h5">BÀN GHẾ ĂN</h3>
-              </div>
-              <div className="category-box">
-                <a href="">
-                  <img
-                    src="https://noithattvp.vn/image/cache/catalog/2022-banner/rem-cua-tvp-cr-400x400.png"
-                    alt=""
-                  />
-                </a>
-                <h3 className="h5">BÀN GHẾ ĂN</h3>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
