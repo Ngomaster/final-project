@@ -1,9 +1,18 @@
 import React from "react";
+import productApis from "../../apis/products/productApis";
 import HeaderList from "../header/header_list";
 import MainSlide from "../slideshow/main_slide";
 import "./index.css";
 
 function Content(props) {
+  const [products, setProducts] = React.useState(null);
+  React.useEffect(() => {
+    productApis.getAll().then((response) => {
+      setProducts(response.data);
+    });
+  }, []);
+  console.log(products);
+
   return (
     <>
       <HeaderList />
