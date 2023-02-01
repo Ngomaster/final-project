@@ -1,15 +1,74 @@
 {
-    "admin": [
-        {
-            "Mã sản phẩm": 71309005,
-            "Tên sản phẩm": "Bàn ăn gỗ",
-            "Ảnh": "https://bachma.vn/wp-content/uploads/2020/08/ban-an-mogen.jpg",
-            "Số lượng": 20,
-            "Tình trạng": "Còn hàng",
-            "Giá tiền": "5m",
-            "Danh mục": "Bàn ăn",
-            "Giảm giá": "5%",
-            "id": 1
-        }
-    ]
+  "product": [
+    {
+      "id": 1675160878081,
+      "name": "Áo",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw8PDw8PDw0PDQ8NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0ODw0NDysZFRkrKystLSsrKysrNy03KysrKy0tKzcrKy0tKy03Kys3KysrKysrLSsrLSstKy0rKys3K//AABEIAQIAwwMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQIHCAMEBgX/xABFEAACAQICBAoGBQsEAwAAAAAAAQIDBAURBxIhMQYTQVFScYGRksEycqGxssIiU2GCohQjM0JDRGJkc9HSJITT8AiTw//EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AzQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEgAAQ2SdO8q5AcN1j1nSqcTVurelW1VLiqtenTnqvPJ5N7tjOxQxGhUy4utSnnu1KsJ59zNZuGOIO6xG8rbcpV5U45vPKFNKnHLrUM+0+JKnF74p/bki4NvUxmak291Vp/oqtWn/AE6k6fwtH0KHCfEqfoX94v8Ad1n7Gxg2mBrLDh7jEVsv6/aqU/iiznp6Scaj+/TfrW9q/wD5jBsmSa4w0pYwv3qMtv61tQ7tkUc8NLOLr9rQl61tHyaGDYcg19lpcxbpWq/2z/yON6WcXf7Wguq2j5sYNhhma6y0pYw/28F1W1HL2o4KmknGpfvrj6tva/8AGxg2RzGZrPPh7jEt+I1vuwow+GKOtX4XYnP0sQvH1XE4L8OQwbQOR0LzHbOhnx11b0str424pwaXU2au18Rr1E1Ur1qie9Va1Sqn4mzqpLmS7Bg27hNSSlFpxklKMk804tZppljyeizEvyjCLRv0qMHaS",
+      "quantity": "12",
+      "status": "c",
+      "price": "12",
+      "category": "bàn",
+      "discount": "12"
+    },
+    {
+      "id": 1675161068103,
+      "name": "Áo",
+      "image": "https://bizweb.dktcdn.net/100/212/791/products/tra-ng-tron-95bb4305-e012-404a-97b4-ac4447cd0742.jpg?v=1623418648000",
+      "quantity": "12",
+      "status": "hết hàng",
+      "price": "12",
+      "category": "bàn",
+      "discount": "12"
+    },
+    {
+      "id": 1675161198242,
+      "name": "a",
+      "image": "a",
+      "quantity": "12",
+      "status": "còn hàng",
+      "price": "12",
+      "category": "a",
+      "discount": "a"
+    },
+    {
+      "id": 1675163634322,
+      "name": "Áo",
+      "image": "https://bizweb.dktcdn.net/100/212/791/products/tra-ng-tron-95bb4305-e012-404a-97b4-ac4447cd0742.jpg?v=1623418648000",
+      "quantity": "12",
+      "status": "hết hàng",
+      "price": "12",
+      "category": "bàn",
+      "discount": "12"
+    },
+    {
+      "id": 1675164394370,
+      "name": "Áo",
+      "image": "https://bizweb.dktcdn.net/100/212/791/products/tra-ng-tron-95bb4305-e012-404a-97b4-ac4447cd0742.jpg?v=1623418648000",
+      "quantity": "12",
+      "status": "hết hàng",
+      "price": "12",
+      "category": "bàn",
+      "discount": "12"
+    },
+    {
+      "id": 1675165639293,
+      "name": "a",
+      "image": "a",
+      "quantity": "12",
+      "status": "chọn",
+      "price": "13",
+      "category": "a",
+      "discount": "a"
+    },
+    {
+      "id": 1675165773244,
+      "name": "quocanh1103",
+      "image": "123",
+      "quantity": "123",
+      "status": "hết hàng",
+      "price": "123",
+      "category": "1",
+      "discount": "1"
+    }
+  ]
 }

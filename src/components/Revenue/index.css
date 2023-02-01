@@ -1,0 +1,28 @@
+.item_profit, .item_revenue, .item_cost{
+    width: 320px;
+    background-color: rgb(255,255,255);
+    margin-left: 6px;
+    border-radius: 8px;
+    display: flex;
+    height: 100px;
+}
+.icon_profit{
+    background-color: rgb(193, 64, 64);
+    margin-right: 10px;
+    border-radius: 8px;
+    width: 150px;
+}
+.text_h3_profit{
+    color:  white;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.item_revenue{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text_h3_cost{
+    padding-left: 25px;
+    color:  white;
+    padding-top: 25px;
+}

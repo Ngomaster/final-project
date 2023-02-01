@@ -50,12 +50,27 @@
 
 #img_products{
     margin-left: -2px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
 
 .main{
     background-color: rgb(255,255,255);
     margin-left: 10px;
     border-radius: 10px;
+}
+#form_add{
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 250px;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#form_add p{
+    color: red;
 }
 
 

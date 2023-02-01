@@ -12,8 +12,8 @@ function Customer(props) {
             <main className='main'>
                 <div>
                     <ul id='item_menu_products'>
-                        <Link to="/addCus"><li className='text_product'><em className="fa fa-plus"></em>Waiting list</li></Link>
-                        <li className='text_product_1'><em className="fa fa-trash"></em>Deactive</li>
+                        <Link to="/admin/addCus"><li className='text_product'><em className="fa fa-pause"></em>Danh sách chờ</li></Link>
+                        <li className='text_product_1'><em className="fa fa-times-circle"></em>Ngưng hoạt động</li>
                     </ul>
                     <span className='line_products'>______________________________________________________________________________________________________________________________________________________________________________________________</span>
                     <div className='search'>

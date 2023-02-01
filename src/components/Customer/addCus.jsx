@@ -30,8 +30,8 @@ function AddCus(props) {
                 <br />
                 <input type="text" name="" id="" />
                 <br /> <br />
-                <Link id='Save_cus' to="/customer">Save</Link>
-                <Link id='Cancel_cus' to="/customer">Cancel</Link>
+                <input type="button" id='Save_cus' value="Save" />
+                <input type="button" id='Cancel_cus' value="Cancel" />
             </form>
         </div>
     );

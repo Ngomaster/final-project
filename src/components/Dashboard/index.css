@@ -2,16 +2,20 @@
     color: black;
     font-size: medium;
     background-color: rgb(255,255,255);
-    height: 20px;
+    height: 28px;
     margin-left: 5px;
-    padding: 10px;
     padding-left: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
 }
-h4{
+.title_h4_dash{
     color: rgb(210,0,0);
+    font-size: 17px !important;
+    margin-top: 10px !important;
 }
 .text_0{
     color: rgb(108,63,110);
+    font-size: 15px 
 }
 .text_1{
     color: rgb(108,63,110);
@@ -94,12 +98,14 @@ h4{
 
 #line{
     color: rgb(255,212,59);
+    margin-left: 30px;
 }
 
 .text_table_order{
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: -10px;
+    font-size: 24px;
 }
 
 table th,
@@ -110,7 +116,6 @@ table td {
     text-align: center;
 }
 table{
-    /* border: 1px solid black; */
     margin-left: 30px;
 }
 
@@ -130,6 +135,11 @@ table{
 }
 
 .text_chart_dash{
+    font-size: 24px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 19px;
+}
+.chart_dash_2{
+    background-color: rgb(255,255,255);
+    margin-top: 50px;
 }
